@@ -1,0 +1,41 @@
+Start av gruppuppgiften.
+Medlemmar: Roger, Jenny och Marica
+
+Webshop My Little Pony
+
+Funktioner som behövs
+
+Som Kund:
+Skapa login,
+Logga in,
+Ändra lösenord,
+Avslutande av konto,
+Lägga in uppgifter så som adress etc,
+Lägga till varor i en varukorg,
+Ändra i en varukorg,
+Lägga en order baserad på varukorgen,
+Se lagda ordrar
+
+Som Admin:
+Skapa login (admin),
+Logga in,
+Ta bort admin/kund,
+Ändra lösenord admin/kund,
+Lägga till kategorier,
+Ta bort kategorier (underförutsättning att det inte finns produkter i kategorin?),
+Lägga till produkter i kategorierna,
+ta bort produkter,
+Lägga in rabattkoder,
+ta bort rabatter,
+korrigera kategorier, produkter och rabattkoder
+Se orderflöde av alla ordrar,
+se ordrar av en viss kund,
+Se ordrar som inte är klara,
+korrigera order,
+markera order som färdig,
+
+Uppgifter till nästa gång:
+Marica - wireframes, colourchart och girhub repo
+Jenny - bilder till produkter och funderingar över kategorier
+Roger - sätter upp en discord server och funderar över tabeller och strukturer till databasen
+Alla funderar på ett webshop namn

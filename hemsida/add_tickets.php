@@ -1,0 +1,31 @@
+<section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titel
+                    </th>
+                    <th>Salong
+                    </th>
+                    <th>Datum
+                    </th>
+                    <th>Tid
+                    </th>
+                    <th>Antal
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- template row -->
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>

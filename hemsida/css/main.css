@@ -1,0 +1,401 @@
+body {
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+body div {
+    width: 75%;
+}
+
+header{
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+    height: 150px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header button {
+    background: none;
+    border: none;
+}
+
+.behind-overlay-windows {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: none;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.shopping_cart_icon {
+    position: absolute;
+    top: 90px;
+    right: 150px;
+    width: 1.5em;
+    z-index: 2;
+}
+
+.noOfTickets {
+    position: absolute;
+    top: 90px;
+    right: 143px;
+    font-size: 10px;
+    background-color: var(--overlay-number-bg-color);
+    border: 1px solid var(--overlay-number-border-color);
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+}
+
+.fa-shopping-cart {
+    background-color: var(--header-bg-color);
+    color: var(--overlay-window-text-color);
+    position: relative;
+    box-sizing: border-box;
+    border: 5px solid var(--header-bg-color);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 2;
+}
+
+.fa-shopping-cart-window-show {
+    background-color: var(--overlay-window-bg-color);
+    border: 5px solid var(--overlay-window-bg-color);
+    padding-bottom: 10px;
+    z-index: 2;
+}
+
+.shopping_cart_window {
+    background-color: var(--overlay-window-bg-color);
+    color: var(--overlay-window-text-color);
+    position: absolute;
+    top: 120px;
+    right: 146px;
+    z-index: 1;
+    width: 250px;
+    height: 200px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid var(--overlay-window-bg-color);
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 2;
+}
+
+.shopping_cart_window table {
+    border-collapse: collapse;
+    z-index: 2;
+}
+
+.shopping_cart_window table thead tr th {
+    border-bottom: 1px solid #000000;
+    padding: 2px;
+    z-index: 2;
+}
+
+.shopping_cart_window table tbody tr td {
+    border-bottom: 1px solid #000000;
+    padding: 5px;
+    z-index: 2;
+}
+
+.shopping_cart_window table tbody tr:last-child td {
+    border: none;
+}
+
+.shopping_cart_window table tbody tr td input.numberOfTickets {
+    width: 1em;
+    padding: 1px;
+    text-align: center;
+}
+
+.numberOfTickets {
+    width: 2em;
+    z-index: 2;
+}
+
+.basketText {
+    display:inline;
+}
+
+.hidden {
+    display: none;
+}
+
+.user_icon {
+    position: absolute;
+    top: 90px;
+    right: 180px;
+    width: 1.5em;
+    z-index: 2;
+}
+
+.fa-user {
+    color: var(--header-text-color);
+    position: relative;
+    border: 5px solid var(--header-bg-color);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 2;
+}
+
+.fa-user-window-show {
+    background-color: var(--overlay-window-bg-color);
+    border: 5px solid var(--overlay-window-bg-color);
+    border: 5px solid var(--overlay-window-bg-color);
+    padding-bottom: 10px;
+    z-index: 2;
+}
+
+.user_login {
+    background-color: var(--overlay-window-bg-color);
+    color: var(--overlay-window-text-color);
+    position: absolute;
+    top: 120px;
+    right: 180px;
+    z-index: 1;
+    width: 230px;
+    height: 200px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid var(--overlay-window-bg-color);
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    z-index: 2;
+}
+
+.user_login form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    padding-top: 5px;
+    z-index: 2;
+}
+
+.user_login form label {
+    color: var(--overlay-window-text-color);
+    margin-bottom: 15px;
+    z-index: 2;
+}
+
+#user_login_username {
+    margin-bottom: 15px;
+}
+
+.user_login_button {
+    background-color: var(--user-login-button-bg-color);
+    border: 2px solid var(--user-login-button-border-color);
+    border-radius: 10px;
+    color: var(--footer-text-color);
+    font-size: 1.2;
+    padding: 5px;
+    margin-top: 15px;
+    z-index: 2;
+}
+
+.user_login_button:hover {
+    background-color: var(--user-login-button-highlight-color);
+    border: 2px solid var(--user-login-button-highlight-border-color);
+}
+
+nav {
+    margin: 0;
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul form li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 19%;
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+}
+
+nav ul form li:first-child {
+    margin-left: 0; 
+}
+
+nav ul form li button {
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    border: 2px solid var(--nav-border-color);
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+nav ul form li button:hover {
+    background-color: var(--nav-highlight-color);
+    color: var(--nav-text-highlight-color);
+    border: 2px solid var(--nav-border-highlight-color);
+}
+
+main {
+    color: var(--main-text-color);
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 75%;
+    display: flex;
+    margin-top: 20px;
+}
+
+section div img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.search_and_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 20%;
+    display: inline-block;
+}
+
+.search_movie li {
+    list-style: none;
+}
+
+.search_movie li input {
+    width: 100%;
+}
+
+.movie_list {
+    display: inline-block;
+    width: 70%;
+}
+
+.movie_list_card {
+    width: 100%;
+}
+
+.movie_list_card div:first-child {
+    width: 30%;
+}
+
+.movie_list_card div:nth-child(2) {
+    width: 60%;
+    padding-left: 50px;
+}
+
+.movie_list_card div:last-child form {
+    text-align: end;
+}
+
+.movie_list_card div:last-child button {
+    background-color: var(--button-border-color);
+    color: var(--button-text-color);
+    border: 2px solid var(--button-border-color);
+    border-radius: 10px;
+}
+
+.movie_list_card div:last-child button:hover {
+    background-color: var(--button-highlight-color);
+    color: var(--button-text-highlight-color);
+    border: 2px solid var(--button-highlight-border-color);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    width: 100%;
+    font-size: 0.8em;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+footer hr {
+    width: 100%;
+}
+
+.footer_column {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_column button {
+    background-color: var(--button-bg-color);
+    border: 2px solid var(--button-border-color);
+    border-radius: 10px;
+    color: var(--footer-text-color);
+    font-size: 1.2;
+    padding: 5px;
+}
+
+.footer_column button:hover {
+    background-color: var(--button-highlight-color);
+    border: 2px solid var(--button-highlight-border-color);
+}
+.main_admin {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.admin_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px; 
+}
+
+.admin_login div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.admin_login div form input {
+    border-radius: 10px;
+}

@@ -1,0 +1,44 @@
+body {
+  --main-bg-color: #000000;
+  --main-text-color: #FFFFFF;
+
+  --card-bg-color: #202020;
+
+  --header-bg-color: #000000;
+  --header-text-color: #FFFFFF;
+
+  --nav-bg-color: #24039e;
+  --nav-border-color: #3402e7;
+  --nav-highlight-color: #3500f5;
+  --nav-border-highlight-color: #2900bd;
+  --nav-text-color: #FFFFFF;
+  --nav-text-highlight-color: #FFFFFF;
+
+  --footer-bg-color: #000000;
+  --footer-text-color: #FFFFFF;
+
+  --button-bg-color: #24039e;
+  --button-border-color: #24039e;
+  --button-highlight-color: #3500f5;
+  --button-highlight-border-color: #24039e;
+  --button-text-color: #FFFFFF;
+  --button-text-highlight-color: #FFFFFF;
+
+  --user-login-button-bg-color: #24039e;
+  --user-login-button-border-color: #000000;
+  --user-login-button-highlight-color: #3500f5;
+  --user-login-button-highlight-border-color: #cbbdff;
+  --user-login-button-text-color: #FFFFFF;
+  --user-login-button-text-highlight-color: #FFFFFF;
+  
+  --overlay-window-bg-color:  #24039e;
+  --overlay-window-text-color: #FFFFFF;
+  --overlay-number-bg-color: #000000;
+  --overlay-number-border-color: #FFFFFF;
+
+  --input-text-color: #000000;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

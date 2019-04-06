@@ -1,0 +1,33 @@
+<section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titel
+                    </th>
+                    <th>Premiär
+                    </th>
+                    <th>Regisör
+                    </th>
+                    <th>Orginalspråk
+                    </th>
+                    <th>Info
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- template row -->
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>

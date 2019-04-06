@@ -1,0 +1,13 @@
+<i class="fas fa-credit-card"></i>
+<i class="fas fa-cash-register"></i>
+<i class="far fa-clock"></i>
+<i class="far fa-calendar-alt"></i>
+<i class="fas fa-hourglass-end"></i>
+<i class="fas fa-hourglass-half"></i>
+<i class="fas fa-hourglass-start"></i>
+<i class="fas fa-toggle-on"></i>
+<i class="fas fa-toggle-off"></i>
+<i class="fas fa-comments"></i>
+<i class="far fa-envelope"></i>
+<i class="fas fa-phone"></i>
+<i class="far fa-bookmark"></i>

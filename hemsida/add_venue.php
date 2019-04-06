@@ -1,0 +1,21 @@
+<section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sal
+                    </th>
+                    <th>Storlek
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- template row -->
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
